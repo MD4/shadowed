@@ -28,3 +28,11 @@ pnpmfile.js
 # Log's files.
 *.log
 *.log.*
+
+# built folders
+dist
+docs
+types
+
+#misc
+.idea

@@ -1,19 +1,19 @@
-# [libraryNameWithSpacesAndUpperCases]
+# shadowed
 
-[![Build Status](https://travis-ci.org/[repositoryOwner]/[repositoryName].svg?branch=master)](https://travis-ci.org/[repositoryOwner]/[repositoryName])
-[![License](https://badgen.net/github/license/[repositoryOwner]/[repositoryName])](./LICENSE)
-[![Library minified size](https://badgen.net/bundlephobia/min/[libraryName])](https://bundlephobia.com/result?p=[libraryName])
-[![Library minified + gzipped size](https://badgen.net/bundlephobia/minzip/[libraryName])](https://bundlephobia.com/result?p=[libraryName])
+[![Build Status](https://travis-ci.org/MD4/shadowed.svg?branch=master)](https://travis-ci.org/MD4/shadowed)
+[![License](https://badgen.net/github/license/MD4/shadowed)](./LICENSE)
+[![Library minified size](https://badgen.net/bundlephobia/min/shadowed)](https://bundlephobia.com/result?p=shadowed)
+[![Library minified + gzipped size](https://badgen.net/bundlephobia/minzip/shadowed)](https://bundlephobia.com/result?p=shadowed)
 
 ## Installation
 
 This library is published in the NPM registry and can be installed using any compatible package manager.
 
 ```sh
-npm install [libraryName] --save
+npm install shadowed --save
 
 # For Yarn, use the command below.
-yarn add [libraryName]
+yarn add shadowed
 ```
 
 ### Installation from CDN
@@ -22,14 +22,14 @@ This module has an UMD bundle available through JSDelivr and Unpkg CDNs.
 
 ```html
 <!-- For UNPKG use the code below. -->
-<script src="https://unpkg.com/[libraryName]"></script>
+<script src="https://unpkg.com/shadowed"></script>
 
 <!-- For JSDelivr use the code below. -->
-<script src="https://cdn.jsdelivr.net/npm/[libraryName]"></script>
+<script src="https://cdn.jsdelivr.net/npm/shadowed"></script>
 
 <script>
-  // UMD module is exposed through the "[libraryCamelCaseName]" global variable.
-  console.log([libraryCamelCaseName]);
+  // UMD module is exposed through the "shadowed" global variable.
+  console.log(shadowed);
 </script>
 ```
 

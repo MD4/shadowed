@@ -1,5 +1,5 @@
 {
-  "name": "[libraryName]",
+  "name": "shadowed",
   "version": "0.0.0",
   "description": "",
   "cdn": "dist/index.umd.js",
@@ -18,7 +18,9 @@
     "eslint": "^7.11.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^5.0.4",
     "jest": "^26.5.2",
+    "pinst": "^2.1.1",
     "prettier": "^2.1.2",
     "rollup": "^2.29.0",
     "rollup-plugin-terser": "^7.0.2",
@@ -29,29 +31,35 @@
     "typescript": "^4.0.3"
   },
   "scripts": {
+    "clean": "rm -Rf docs && rm -Rf dist && rm -Rf types",
     "doc": "typedoc src/index.ts",
     "test": "npm run test:lint && npm run test:unit",
     "test:lint": "eslint \"*/**/*.{ts,js,json}\"",
     "test:unit": "jest",
     "lint": "eslint \"*/**/*.{ts,js,json}\" --fix",
     "build": "rollup --config ./rollup.config.js",
-    "prepublishOnly": "npm run doc && npm run build && npm run test"
+    "prepublishOnly": "pinst --disable && npm run doc && npm run build && npm run test",
+    "postinstall": "husky install",
+    "postpublish": "pinst --enable"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/[repositoryOwner]/[repositoryName].git"
+    "url": "git+https://github.com/MD4/shadowed.git"
   },
   "keywords": [
     "typescript",
-    "boilerplate",
-    "library"
+    "library",
+    "shadow",
+    "2D",
+    "light"
   ],
   "author": {
-    "name": "[authorFullName]"
+    "name": "Martin DEQUATREMARE",
+    "url": "https://github.com/MD4"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/[repositoryOwner]/[repositoryName]/issues"
+    "url": "https://github.com/MD4/shadowed/issues"
   },
-  "homepage": "https://github.com/[repositoryOwner]/[repositoryName]#readme"
+  "homepage": "https://github.com/MD4/shadowed#readme"
 }
