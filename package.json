@@ -65,5 +65,11 @@
   "bugs": {
     "url": "https://github.com/MD4/shadowed/issues"
   },
-  "homepage": "https://github.com/MD4/shadowed#readme"
+  "homepage": "https://github.com/MD4/shadowed#readme",
+  "files": [
+    "dist",
+    "types",
+    "readme",
+    "docs"
+  ]
 }
