@@ -1,7 +1,6 @@
 # shadowed
 Dead simple shadow casting computation.
 
-[![Build Status](https://travis-ci.org/MD4/shadowed.svg?branch=master)](https://travis-ci.org/MD4/shadowed)
 [![License](https://badgen.net/github/license/MD4/shadowed)](./LICENSE)
 [![Library minified size](https://badgen.net/bundlephobia/min/shadowed)](https://bundlephobia.com/result?p=shadowed)
 [![Library minified + gzipped size](https://badgen.net/bundlephobia/minzip/shadowed)](https://bundlephobia.com/result?p=shadowed)
