@@ -38,7 +38,7 @@
     "test:unit": "jest",
     "lint": "eslint \"*/**/*.{ts,js,json}\" --fix",
     "build": "rollup --config ./rollup.config.js",
-    "prepublishOnly": "pinst --disable && npm run doc && npm run build && npm run test",
+    "prepublishOnly": "npm run clean && pinst --disable && npm run doc && npm run build && npm run test",
     "postinstall": "husky install",
     "postpublish": "pinst --enable",
     "demo": "npm run build && http-server -o demo",
