@@ -31,7 +31,6 @@ pnpmfile.js
 
 # built folders
 dist
-docs
 types
 
 #misc
