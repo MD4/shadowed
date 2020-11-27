@@ -39,7 +39,7 @@
     "lint": "eslint \"*/**/*.{ts,js,json}\" --fix",
     "build": "rollup --config ./rollup.config.js",
     "prepublishOnly": "pinst --disable && npm run doc && npm run build && npm run test",
-    "_postinstall": "husky install",
+    "postinstall": "husky install",
     "postpublish": "pinst --enable",
     "demo": "npm run build && http-server -o demo"
   },
