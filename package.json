@@ -41,7 +41,9 @@
     "prepublishOnly": "pinst --disable && npm run doc && npm run build && npm run test",
     "postinstall": "husky install",
     "postpublish": "pinst --enable",
-    "demo": "npm run build && http-server -o demo"
+    "demo": "npm run build && http-server -o demo",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
