@@ -22,7 +22,7 @@
 
 ▸ `Const`**computeShadows**(`bounds`: [Bounds](interfaces/bounds.md), `walls`: [Segment2](interfaces/segment2.md)[], `light`: [Vec2](interfaces/vec2.md)): [Vec2](interfaces/vec2.md)[][]
 
-*Defined in [computeShadows.ts:39](https://github.com/MD4/shadowed/blob/a52c63d/src/computeShadows.ts#L39)*
+*Defined in [computeShadows.ts:39](https://github.com/MD4/shadowed/blob/2f21535/src/computeShadows.ts#L39)*
 
 Computes casted shadows by a light for a given set of walls within specified bounds.
 
