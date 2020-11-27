@@ -59,8 +59,10 @@ const options = {
       clean: true,
       useTsconfigDeclarationDir: true,
       tsconfig: './tsconfig.bundle.json',
+      namedExports: true,
     }),
   ],
+  external: '2d-polygon-boolean',
 };
 
 export default options;

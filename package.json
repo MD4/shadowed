@@ -9,7 +9,6 @@
   "module": "dist/index.esm.js",
   "jsdelivr": "dist/index.umd.js",
   "umd:main": "dist/index.umd.js",
-  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.14",
     "@types/prettier": "^2.1.2",
@@ -18,6 +17,7 @@
     "eslint": "^7.11.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "http-server": "^0.12.3",
     "husky": "^5.0.4",
     "jest": "^26.5.2",
     "pinst": "^2.1.1",
@@ -39,8 +39,9 @@
     "lint": "eslint \"*/**/*.{ts,js,json}\" --fix",
     "build": "rollup --config ./rollup.config.js",
     "prepublishOnly": "pinst --disable && npm run doc && npm run build && npm run test",
-    "postinstall": "husky install",
-    "postpublish": "pinst --enable"
+    "_postinstall": "husky install",
+    "postpublish": "pinst --enable",
+    "demo": "npm run build && http-server -o demo"
   },
   "repository": {
     "type": "git",
@@ -50,6 +51,7 @@
     "typescript",
     "library",
     "shadow",
+    "casting",
     "2D",
     "light"
   ],

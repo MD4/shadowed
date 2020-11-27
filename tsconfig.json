@@ -4,14 +4,12 @@
     "jsx": "react",
     "jsxFactory": "React.createElement",
     "jsxFragmentFactory": "React.Fragment",
-
     // Module settings.
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-
     // Strictness and quality settings.
     "alwaysStrict": true,
     "forceConsistentCasingInFileNames": true,
@@ -21,12 +19,19 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strict": true,
-
     // Type-checking settings.
-    "lib": ["ES2020"],
+    "lib": [
+      "ES2020"
+    ],
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
-    "types": ["jest"]
+    "types": [
+      "jest"
+    ]
   },
-  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "@types/2d-polygon-boolean.d.ts"
+  ]
 }
