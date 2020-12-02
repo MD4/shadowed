@@ -1,6 +1,8 @@
 # shadowed
 Dead simple shadow casting computation.
 
+[Demo here](https://md4.github.io/shadowed)
+
 [![License](https://badgen.net/github/license/MD4/shadowed)](./LICENSE)
 [![Library minified size](https://badgen.net/bundlephobia/min/shadowed)](https://bundlephobia.com/result?p=shadowed)
 [![Library minified + gzipped size](https://badgen.net/bundlephobia/minzip/shadowed)](https://bundlephobia.com/result?p=shadowed)
