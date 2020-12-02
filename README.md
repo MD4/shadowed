@@ -7,7 +7,7 @@ Dead simple shadow casting computation.
 [![Library minified size](https://badgen.net/bundlephobia/min/shadowed)](https://bundlephobia.com/result?p=shadowed)
 [![Library minified + gzipped size](https://badgen.net/bundlephobia/minzip/shadowed)](https://bundlephobia.com/result?p=shadowed)
 
-![screenshot](./readme/shadowed.png)
+[![screenshot](./readme/shadowed.png)](https://md4.github.io/shadowed)
 
 ## Installation
 
