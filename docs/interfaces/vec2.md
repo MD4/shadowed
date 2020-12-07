@@ -21,7 +21,7 @@
 
 •  **x**: number
 
-*Defined in [entities.ts:2](https://github.com/MD4/shadowed/blob/3438083/src/entities.ts#L2)*
+*Defined in [entities.ts:2](https://github.com/MD4/shadowed/blob/7dfb590/src/entities.ts#L2)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 •  **y**: number
 
-*Defined in [entities.ts:3](https://github.com/MD4/shadowed/blob/3438083/src/entities.ts#L3)*
+*Defined in [entities.ts:3](https://github.com/MD4/shadowed/blob/7dfb590/src/entities.ts#L3)*
