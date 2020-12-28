@@ -21,7 +21,7 @@
 
 •  **a**: [Vec2](vec2.md)
 
-*Defined in [entities.ts:12](https://github.com/MD4/shadowed/blob/cc2f394/src/entities.ts#L12)*
+*Defined in [entities.ts:12](https://github.com/MD4/shadowed/blob/4b85d5b/src/entities.ts#L12)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 •  **b**: [Vec2](vec2.md)
 
-*Defined in [entities.ts:13](https://github.com/MD4/shadowed/blob/cc2f394/src/entities.ts#L13)*
+*Defined in [entities.ts:13](https://github.com/MD4/shadowed/blob/4b85d5b/src/entities.ts#L13)*
