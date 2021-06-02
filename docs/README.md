@@ -51,4 +51,4 @@ computeShadows(
 
 #### Defined in
 
-[computeShadows.ts:39](https://github.com/MD4/shadowed/blob/95331da/src/computeShadows.ts#L39)
+[computeShadows.ts:39](https://github.com/MD4/shadowed/blob/4e1ce4e/src/computeShadows.ts#L39)

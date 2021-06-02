@@ -1,6 +1,6 @@
 {
   "name": "shadowed",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "",
   "cdn": "dist/index.umd.js",
   "main": "dist/index.js",

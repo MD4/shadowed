@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[entities.ts:2](https://github.com/MD4/shadowed/blob/95331da/src/entities.ts#L2)
+[entities.ts:2](https://github.com/MD4/shadowed/blob/4e1ce4e/src/entities.ts#L2)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[entities.ts:3](https://github.com/MD4/shadowed/blob/95331da/src/entities.ts#L3)
+[entities.ts:3](https://github.com/MD4/shadowed/blob/4e1ce4e/src/entities.ts#L3)
