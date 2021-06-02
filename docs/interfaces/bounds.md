@@ -21,7 +21,7 @@
 
 •  **bottomRight**: [Vec2](vec2.md)
 
-*Defined in [entities.ts:8](https://github.com/MD4/shadowed/blob/4b85d5b/src/entities.ts#L8)*
+*Defined in [entities.ts:8](https://github.com/MD4/shadowed/blob/bb32e8b/src/entities.ts#L8)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 •  **topLeft**: [Vec2](vec2.md)
 
-*Defined in [entities.ts:7](https://github.com/MD4/shadowed/blob/4b85d5b/src/entities.ts#L7)*
+*Defined in [entities.ts:7](https://github.com/MD4/shadowed/blob/bb32e8b/src/entities.ts#L7)*
