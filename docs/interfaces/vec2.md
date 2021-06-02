@@ -1,32 +1,30 @@
-**[shadowed](../README.md)**
-
-> [Globals](../README.md) / Vec2
+[shadowed](../README.md) / Vec2
 
 # Interface: Vec2
 
-## Hierarchy
-
-* **Vec2**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [x](vec2.md#x)
-* [y](vec2.md#y)
+- [x](vec2.md#x)
+- [y](vec2.md#y)
 
 ## Properties
 
 ### x
 
-•  **x**: number
+• **x**: `number`
 
-*Defined in [entities.ts:2](https://github.com/MD4/shadowed/blob/3b24b55/src/entities.ts#L2)*
+#### Defined in
+
+[entities.ts:2](https://github.com/MD4/shadowed/blob/95331da/src/entities.ts#L2)
 
 ___
 
 ### y
 
-•  **y**: number
+• **y**: `number`
 
-*Defined in [entities.ts:3](https://github.com/MD4/shadowed/blob/3b24b55/src/entities.ts#L3)*
+#### Defined in
+
+[entities.ts:3](https://github.com/MD4/shadowed/blob/95331da/src/entities.ts#L3)

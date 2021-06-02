@@ -1,32 +1,28 @@
-**[shadowed](README.md)**
-
-> Globals
+shadowed
 
 # shadowed
 
-## Index
+## Table of contents
 
 ### Interfaces
 
-* [Bounds](interfaces/bounds.md)
-* [Segment2](interfaces/segment2.md)
-* [Vec2](interfaces/vec2.md)
+- [Bounds](interfaces/bounds.md)
+- [Segment2](interfaces/segment2.md)
+- [Vec2](interfaces/vec2.md)
 
 ### Functions
 
-* [computeShadows](README.md#computeshadows)
+- [computeShadows](README.md#computeshadows)
 
 ## Functions
 
 ### computeShadows
 
-▸ `Const`**computeShadows**(`bounds`: [Bounds](interfaces/bounds.md), `walls`: [Segment2](interfaces/segment2.md)[], `light`: [Vec2](interfaces/vec2.md)): [Vec2](interfaces/vec2.md)[][]
-
-*Defined in [computeShadows.ts:39](https://github.com/MD4/shadowed/blob/3b24b55/src/computeShadows.ts#L39)*
+▸ `Const` **computeShadows**(`bounds`, `walls`, `light`): [Vec2](interfaces/vec2.md)[][]
 
 Computes casted shadows by a light for a given set of walls within specified bounds.
 
-**`example`** 
+**`example`**
 ```ts
 computeShadows(
   {
@@ -41,12 +37,18 @@ computeShadows(
 );
 ```
 
-#### Parameters:
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`bounds` | [Bounds](interfaces/bounds.md) | A rectangle where the shadows will be contained. |
-`walls` | [Segment2](interfaces/segment2.md)[] | Segments that will cast shadows. |
-`light` | [Vec2](interfaces/vec2.md) | Position of the light.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `bounds` | [Bounds](interfaces/bounds.md) | A rectangle where the shadows will be contained. |
+| `walls` | [Segment2](interfaces/segment2.md)[] | Segments that will cast shadows. |
+| `light` | [Vec2](interfaces/vec2.md) | Position of the light. |
 
-**Returns:** [Vec2](interfaces/vec2.md)[][]
+#### Returns
+
+[Vec2](interfaces/vec2.md)[][]
+
+#### Defined in
+
+[computeShadows.ts:39](https://github.com/MD4/shadowed/blob/95331da/src/computeShadows.ts#L39)

@@ -1,32 +1,30 @@
-**[shadowed](../README.md)**
-
-> [Globals](../README.md) / Bounds
+[shadowed](../README.md) / Bounds
 
 # Interface: Bounds
 
-## Hierarchy
-
-* **Bounds**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [bottomRight](bounds.md#bottomright)
-* [topLeft](bounds.md#topleft)
+- [bottomRight](bounds.md#bottomright)
+- [topLeft](bounds.md#topleft)
 
 ## Properties
 
 ### bottomRight
 
-•  **bottomRight**: [Vec2](vec2.md)
+• **bottomRight**: [Vec2](vec2.md)
 
-*Defined in [entities.ts:8](https://github.com/MD4/shadowed/blob/3b24b55/src/entities.ts#L8)*
+#### Defined in
+
+[entities.ts:8](https://github.com/MD4/shadowed/blob/95331da/src/entities.ts#L8)
 
 ___
 
 ### topLeft
 
-•  **topLeft**: [Vec2](vec2.md)
+• **topLeft**: [Vec2](vec2.md)
 
-*Defined in [entities.ts:7](https://github.com/MD4/shadowed/blob/3b24b55/src/entities.ts#L7)*
+#### Defined in
+
+[entities.ts:7](https://github.com/MD4/shadowed/blob/95331da/src/entities.ts#L7)

@@ -7,13 +7,13 @@ import { isWallInBounds, padBounds } from './boundsUtils';
 /**
  * @hidden
  */
-const computeShadow = (bounds: Bounds, light: Vec2) => (
-  wall: Segment2,
-): Vec2[] | null => {
-  const projection = getWallProjectionToBounds(bounds, light, wall);
+const computeShadow =
+  (bounds: Bounds, light: Vec2) =>
+  (wall: Segment2): Vec2[] | null => {
+    const projection = getWallProjectionToBounds(bounds, light, wall);
 
-  return projection.length >= 2 ? projection.concat(wall.a, wall.b) : null;
-};
+    return projection.length >= 2 ? projection.concat(wall.a, wall.b) : null;
+  };
 
 /**
  * Computes casted shadows by a light for a given set of walls within specified bounds.

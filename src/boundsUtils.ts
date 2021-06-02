@@ -41,9 +41,11 @@ export const getBoundsWalls = ({
 /**
  * @hidden
  */
-export const isWallInBounds = (bounds: Bounds) => (wall: Segment2): boolean =>
-  isInBounds(bounds, wall.a) ||
-  isInBounds(bounds, wall.b) ||
-  getBoundsWalls(bounds).some((boundsWall) =>
-    getIntersection(wall, boundsWall),
-  );
+export const isWallInBounds =
+  (bounds: Bounds) =>
+  (wall: Segment2): boolean =>
+    isInBounds(bounds, wall.a) ||
+    isInBounds(bounds, wall.b) ||
+    getBoundsWalls(bounds).some((boundsWall) =>
+      getIntersection(wall, boundsWall),
+    );
